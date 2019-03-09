@@ -1,0 +1,28 @@
+{
+  "name": "modempunk",
+  "version": "1.0.0",
+  "description": "This is an automated Tumblr bot",
+  "main": "main.js",
+  "dependencies": {
+    "tumblr": "^0.4.1",
+    "tumblr.js": "^0.0.4",
+    "xmlhttprequest": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacfinger/modempunk.git"
+  },
+  "keywords": [
+    "vaporwave"
+  ],
+  "author": "Zacfinger.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zacfinger/modempunk/issues"
+  },
+  "homepage": "https://github.com/zacfinger/modempunk#readme"
+}
