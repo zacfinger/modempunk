@@ -1,0 +1,9 @@
+.DS_Store
+log0.txt
+log.txt
+main.old.js
+neuromancer.js
+config.js
+test.js
+users.js
+node_modules/
