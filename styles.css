@@ -1,0 +1,52 @@
+.grid article p, .grid article h1, .grid article h2, .grid article h3, .grid article h4, .grid article h5, .grid article h6, .grid article blockquote, .grid article cite {
+    font-family:monospace;
+}
+
+.post-content {
+    font-family:monospace;
+    color: #ffffff;
+}
+
+div .top-bar {
+   display:none;
+}
+
+.post-content .link h2 {
+    color:#000000;
+	background-color:#66FF66;
+}
+
+.grid .post-content {
+    background-color:#FF69B4;
+}
+
+.grid article span.tags a {
+color: #ffffff;
+font-size: .9em;
+margin-right: 2px;
+}
+
+a, a:active, cite {
+    font-family:"Krungthep","Menlo-Bold",monospace;
+color: #ffffff;
+font-weight:bold;
+}
+
+a.home-links {
+    color:#FF69B4;
+}
+
+a.home-links:hover {
+    color:#000000;
+}
+
+div.post-content a h2 {
+    font-family:"Krungthep","Menlo-Bold",monospace;
+color: #ffffff;
+font-weight:bold;
+}
+
+.grid article .actions .date a {
+color: white;
+width: auto;
+}
