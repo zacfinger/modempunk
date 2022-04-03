@@ -66,7 +66,7 @@ var timedif = process.argv[3];
 var users = require('./users.js'); 
 
 // Make the request
-client.tagged(tag, function (err, data) {
+client.taggedPosts(tag, function (err, data) {
 
 	if(tag == "technophilia"){
 client.reblog('modempunk.tumblr.com', { id: 181032820965, reblog_key: 'XJcpCpsy' }, function (err, data) {
@@ -87,7 +87,7 @@ client.reblog('modempunk.tumblr.com', { id: 181032820965, reblog_key: 'XJcpCpsy'
 		if(timestamp > (now - timedif) && type != "answer"
 		&& type != "text" && type != "quote" && type != "link"
 		&& type != "chat" && users.indexOf(blog_name) == -1){
-			client.reblog('modempunk.tumblr.com', 
+			client.reblogPost('modempunk.tumblr.com', 
 				{ id: post_id,
 				  reblog_key: reblog_key,
 				  comment: randomComment()
@@ -96,7 +96,7 @@ client.reblog('modempunk.tumblr.com', { id: 181032820965, reblog_key: 'XJcpCpsy'
 					//console.log(err + " " + data);   
 				}
 			);
-		} 
+		}//else { console.log("Too old to reblog"); } 
 		
 	}
 	}

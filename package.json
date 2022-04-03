@@ -1,11 +1,11 @@
 {
   "name": "modempunk",
-  "version": "1.0.0",
+  "version": "1.12.0",
   "description": "This is an automated Tumblr bot",
   "main": "main.js",
   "dependencies": {
     "tumblr": "^0.4.1",
-    "tumblr.js": "^0.0.4",
+    "tumblr.js": "^3.0.0",
     "xmlhttprequest": "^1.6.0"
   },
   "devDependencies": {},
@@ -20,7 +20,7 @@
     "vaporwave"
   ],
   "author": "Zacfinger.com",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zacfinger/modempunk/issues"
   },
